@@ -1,0 +1,60 @@
+.checkout-page {
+  display: flex;
+}
+
+.checkout-left {
+  background-color: white;
+  width: 70%;
+  min-width: 550px;
+  margin-top: 25px;
+  margin-left: 10px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.checkout-left > h2 {
+  font-size: 28px;
+  line-height: 36px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 8px;
+}
+
+.checkout-right {
+  background-color: white;
+  margin-left: 15px;
+  width: 370px;
+  min-width: 320px;
+  height: 150px;
+  margin-top: 15px;
+
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.checkout-right > p {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.gift-contain {
+  display: flex;
+}
+
+.gift-contain > p {
+  margin-left: 10px;
+  margin-top: -3px;
+  font-size: 14px;
+}
+
+.checkout-right > button {
+  width: 90%;
+  border: none;
+  background-color: #f0c14b;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+}

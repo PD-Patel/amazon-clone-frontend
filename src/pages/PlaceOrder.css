@@ -1,0 +1,140 @@
+.place-order {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: white;
+  min-width: 1200px;
+}
+
+.place-order > h3 {
+  margin-left: 110px;
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.policyInfo {
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 110px;
+  margin-top: 0px;
+}
+
+.placeOrder-userInfo {
+  margin-left: 110px;
+  border: 1px lightgray solid;
+  width: 815px;
+  height: 202px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.addressTitle {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  line-height: 17px !important;
+  padding-top: 10px !important;
+  padding-left: 15px !important;
+}
+
+.paymentTitle {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  line-height: 17px !important;
+  padding-top: 10px !important;
+  padding-left: 15px !important;
+}
+
+.addressInfo {
+  margin-top: 30px !important;
+  margin-left: 15px;
+}
+
+.payment-method {
+  margin-left: 65px;
+}
+
+.addressInfo > p {
+  font-size: 13px;
+  margin-top: -16px;
+
+  font-weight: 400;
+}
+
+.card-element {
+  width: 480px;
+  margin-left: 25px;
+}
+
+.payment > p {
+  font-size: 12px;
+  margin-left: 25px;
+  font-weight: 600;
+}
+
+.placeOrder-userProduct {
+  width: 815px;
+  margin-left: 110px;
+  margin-top: 40px;
+  border: 1px lightgray solid;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+.place-order-content {
+  display: flex;
+}
+
+.place-order-price {
+  width: 275px;
+  height: 200px;
+  margin-left: 20px;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.place-order-button {
+  width: 80%;
+  margin-left: 28px;
+  margin-top: 20px;
+  border: none;
+  background-color: #f0c14b;
+  height: 30px;
+}
+
+.order-summary {
+  font-size: 13px !important;
+  font-weight: 600;
+  margin-left: 28px;
+  margin-top: 5px;
+}
+
+.items-price,
+.delivery-price {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 28px;
+  margin-right: 10px;
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+.delivery-price {
+  border-bottom: 1px solid lightgray;
+}
+
+.TotalPrice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.TotalPrice > h4 {
+  font-size: 18px;
+  margin-left: 28px;
+  margin-right: 10px;
+  margin-top: 15px;
+  color: #b12704;
+  font-weight: 600;
+}

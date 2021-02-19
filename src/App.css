@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap");
+
+body {
+  font-family: "Cario", Arial, Helvetica, sans-serif;
+  background-color: #eaeded !important;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  /* justify-items: center; */
+}

@@ -1,0 +1,86 @@
+.signUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 150vh;
+}
+
+.signUp-content {
+  border: 1px solid lightgray;
+  margin-top: 25px;
+  width: 400px;
+  height: 550px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.userInput {
+  width: 90%;
+  margin-bottom: 10px;
+  height: 35px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.userPassword {
+  font-size: 12px;
+}
+
+.userInput:focus {
+  border: 1px solid darkorange;
+}
+
+.info {
+  font-size: 11px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.info-icon {
+  color: rgb(18, 112, 156) !important;
+  font-size: 16px !important;
+  margin-right: 10px;
+}
+
+.CreateButton {
+  margin-top: 25px;
+  width: 90%;
+  background-color: #f0c14b;
+  border: none;
+  height: 32px;
+  border-radius: 5px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.condition {
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.condition > span {
+  color: rgb(18, 112, 156);
+}
+
+.condition > span:hover {
+  color: #c7511f !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.account-signIn {
+  font-size: 14px;
+}
+
+.link-SignUp {
+  color: rgb(18, 112, 156);
+}
+
+.link-SignUp:hover {
+  color: #c7511f !important;
+}

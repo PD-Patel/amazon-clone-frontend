@@ -1,0 +1,125 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white !important;
+  height: 100vh;
+}
+
+.login-logo {
+  width: 105px;
+  height: 35px;
+  margin-top: 25px;
+}
+
+.login-content {
+  border: 1px solid lightgray;
+  margin-top: 25px;
+  width: 350px;
+  height: 350px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.login-content > h2 {
+  font-size: 30px;
+  line-height: 34px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.email {
+  margin-top: 5px;
+}
+
+.emailInput {
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  height: 35px;
+}
+
+.emailInput:focus {
+  outline: none;
+  border: 1px solid darkorange;
+}
+
+.password {
+  margin-top: 15px;
+}
+
+.passwordInput {
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  height: 35px;
+}
+.passwordInput:focus {
+  outline: none;
+  border: 1px solid darkorange;
+}
+.label {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 5px;
+}
+
+.login-content > button {
+  margin-top: 25px;
+  width: 90%;
+  background-color: #f0c14b;
+  border: none;
+  height: 32px;
+  border-radius: 5px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.login-content > button:hover {
+  background-color: darkorange;
+  transition: 0.3s;
+}
+
+.login-content > p {
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.login-content > p > span {
+  color: rgb(18, 112, 156);
+}
+
+.login-content > p > span:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+.line-break > span {
+  letter-spacing: -2px !important;
+}
+
+.line-break {
+  font-size: 12px;
+  margin-top: 25px;
+  color: #767676;
+}
+
+.registerButton {
+  width: 340px;
+  border: 1px gray solid;
+  height: 35px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.registerButton:focus {
+  outline: none;
+  border: 1px darkorange solid;
+}
+
+.registerButton:hover {
+  background-color: lightgray;
+}
